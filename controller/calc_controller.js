@@ -19,7 +19,7 @@ class CalcController {
             this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
         }, 1000);
     }
-    
+
     initButtonsEvents(){
         let buttons = document.querySelectorAll("#buttons > g, #parts > g");
         
